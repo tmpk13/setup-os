@@ -8,7 +8,7 @@ function fish_prompt
 end
 """ >> ~/.config/fish/functions/fish_prompt.fish
 
-echo ""
+echo """
 function fish_greeting
   printf ""
 end
