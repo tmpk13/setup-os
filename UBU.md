@@ -18,10 +18,24 @@ end
 
 echo "fish" >> ~/.bashrc
 
+mkdir -p ~/.config/alacritty/
+echo """
+[window]
+startup_mode = "Maximized"
+[colors.primary]
+background="#Eceecc"
+foreground="#555555"
+[font]
+normal = { family = "0xProto", style = "Bold" }
+""" >> ~/.config/alacritty/alacritty.toml
+
 sudo apt install alacritty
 sudo apt install fd-find
 sudo apt install ripgrep
+sudo apt install neovim
+sudo apt install git
 
+# git clone 0xProto -> install
 
 alacritty
 ```
