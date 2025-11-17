@@ -19,6 +19,8 @@ end
 echo "fish" >> ~/.bashrc
 
 sudo apt install alacritty
+sudo apt install fd-find
+sudo apt install ripgrep
 
 
 alacritty
