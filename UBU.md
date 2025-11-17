@@ -1,5 +1,6 @@
-#!/bin/bash
 ```
+#!/bin/bash
+
 sudo apt install fish
 mkdir -p ~/.config/fish/functions
 echo """
