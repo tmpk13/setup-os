@@ -1,6 +1,8 @@
 ```
 #!/bin/bash
 
+# sudo apt install spice-vdagent # VM clipboard share
+
 sudo apt install fish
 mkdir -p ~/.config/fish/functions
 echo """
