@@ -2,6 +2,8 @@
 #!/bin/bash
 
 gnome-extensions disable ubuntu-dock@ubuntu.com
+# sudo apt install numlockx
+# echo "numlockx off" >> .bashrc
 
 # sudo apt install spice-vdagent # VM clipboard share
 
