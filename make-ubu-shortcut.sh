@@ -2,11 +2,11 @@
 
 printf "Name: "
 set NAME "$(read)"
-printf "\Description: "
+printf "\nDescription: "
 set DESCRIPTION "$(read)"
-printf "\Icon path: "
+printf "\nIcon path: "
 set ICON_PATH "$(read)"
-printf "\Executable path ('/.../script.sh'): "
+printf "\nExecutable path ('/.../script.sh'): "
 set PATH_OF_EXEC "$(read)"
 
 echo """
