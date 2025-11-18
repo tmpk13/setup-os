@@ -1,13 +1,13 @@
 #!/bin/fish
 
 printf "Name: "
-set NAME "$(read)"
+read NAME
 printf "\nDescription: "
-set DESCRIPTION "$(read)"
+read DESCRIPTION
 printf "\nIcon path: "
-set ICON_PATH "$(read)"
+read ICON_PATH
 printf "\nExecutable path ('/.../script.sh'): "
-set PATH_OF_EXEC "$(read)"
+read PATH_OF_EXEC
 
 echo """
 [Desktop Entry]
@@ -17,4 +17,4 @@ Description=$DESCRIPTION
 Icon=$ICON_PATH
 Exec=$PATH_OF_EXEC
 Terminal=false
-""" > ~/Desktop/\'$NAME\'.desktop
+""" > ~/Desktop/$NAME.desktop
