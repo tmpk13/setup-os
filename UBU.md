@@ -1,6 +1,8 @@
 ```
 #!/bin/bash
 
+gnome-extensions disable ubuntu-dock@ubuntu.com
+
 # sudo apt install spice-vdagent # VM clipboard share
 
 sudo apt install fish
